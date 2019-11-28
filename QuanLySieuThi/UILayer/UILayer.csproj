@@ -42,23 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Duy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Duy.Designer.cs">
-      <DependentUpon>Duy.cs</DependentUpon>
-    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Product_Details.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Product_Details.Designer.cs">
-      <DependentUpon>Product_Details.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -95,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlForm.resx">
       <DependentUpon>UserControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewInvetory.resx">
+      <DependentUpon>ViewInvetory.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
