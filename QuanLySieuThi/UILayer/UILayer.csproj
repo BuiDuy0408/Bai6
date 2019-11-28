@@ -42,12 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Duy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Duy.Designer.cs">
-      <DependentUpon>Duy.cs</DependentUpon>
-    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +88,9 @@
     <EmbeddedResource Include="Duy.resx">
       <DependentUpon>Duy.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Product_Details.resx">
+      <DependentUpon>Product_Details.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -101,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlForm.resx">
       <DependentUpon>UserControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewInvetory.resx">
+      <DependentUpon>ViewInvetory.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
