@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace UILayer
 {
-    public partial class Product_Details : Form
+    public partial class PosSystem : Form
     {
-        public Product_Details()
+        public PosSystem()
         {
             InitializeComponent();
-        }
-
-        private void Product_Details_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
