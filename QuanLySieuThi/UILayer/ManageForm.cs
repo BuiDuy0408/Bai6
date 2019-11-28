@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace UILayer
 {
-    public partial class ManageForm : Form
+    public partial class ManageForm: Form
     {
         public ManageForm()
         {
