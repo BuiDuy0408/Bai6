@@ -42,8 +42,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.helpProvider1 = new System.Windows.Forms.HelpProvider();
+            this.helpProvider2 = new System.Windows.Forms.HelpProvider();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -171,10 +171,6 @@
             this.directorySearcher1.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
             this.directorySearcher1.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
             // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
             // ManageForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -219,7 +215,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox textBox6;
         private System.DirectoryServices.DirectorySearcher directorySearcher1;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.HelpProvider helpProvider1;
+        private System.Windows.Forms.HelpProvider helpProvider2;
     }
 }
