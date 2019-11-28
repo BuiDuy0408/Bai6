@@ -38,6 +38,10 @@
             this.aboutUSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.liciensToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.changeAccountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.wordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.excelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,7 +62,8 @@
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.logoutToolStripMenuItem,
-            this.changeAccountToolStripMenuItem});
+            this.changeAccountToolStripMenuItem,
+            this.exportDataToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
             this.fileToolStripMenuItem.Text = "File";
@@ -117,6 +122,34 @@
             this.changeAccountToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
             this.changeAccountToolStripMenuItem.Text = "Change Account";
             // 
+            // exportDataToolStripMenuItem
+            // 
+            this.exportDataToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.wordToolStripMenuItem,
+            this.excelToolStripMenuItem,
+            this.pDFToolStripMenuItem});
+            this.exportDataToolStripMenuItem.Name = "exportDataToolStripMenuItem";
+            this.exportDataToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
+            this.exportDataToolStripMenuItem.Text = "Export Data";
+            // 
+            // wordToolStripMenuItem
+            // 
+            this.wordToolStripMenuItem.Name = "wordToolStripMenuItem";
+            this.wordToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.wordToolStripMenuItem.Text = "Word";
+            // 
+            // excelToolStripMenuItem
+            // 
+            this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
+            this.excelToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.excelToolStripMenuItem.Text = "Excel";
+            // 
+            // pDFToolStripMenuItem
+            // 
+            this.pDFToolStripMenuItem.Name = "pDFToolStripMenuItem";
+            this.pDFToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.pDFToolStripMenuItem.Text = "PDF";
+            // 
             // ViewInvetory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -146,5 +179,9 @@
         private System.Windows.Forms.ToolStripMenuItem aboutUSToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem liciensToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem changeAccountToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exportDataToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem wordToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pDFToolStripMenuItem;
     }
 }
