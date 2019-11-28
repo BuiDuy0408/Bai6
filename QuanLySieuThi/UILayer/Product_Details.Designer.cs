@@ -310,7 +310,7 @@
             this.ClientSize = new System.Drawing.Size(1047, 539);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Name = "Product_Details";
-            this.Text = "Product_Details";
+            this.Text = "Product";
             this.Load += new System.EventHandler(this.Product_Details_Load);
             this.flowLayoutPanel2.ResumeLayout(false);
             this.flowLayoutPanel2.PerformLayout();
