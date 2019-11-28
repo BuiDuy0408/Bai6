@@ -37,6 +37,7 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.liciensToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.changeAccountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +57,8 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.logoutToolStripMenuItem});
+            this.logoutToolStripMenuItem,
+            this.changeAccountToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
             this.fileToolStripMenuItem.Text = "File";
@@ -64,7 +66,7 @@
             // logoutToolStripMenuItem
             // 
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
             this.logoutToolStripMenuItem.Text = "Logout";
             // 
             // inventoryToolStripMenuItem
@@ -109,6 +111,12 @@
             this.liciensToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
             this.liciensToolStripMenuItem.Text = "License";
             // 
+            // changeAccountToolStripMenuItem
+            // 
+            this.changeAccountToolStripMenuItem.Name = "changeAccountToolStripMenuItem";
+            this.changeAccountToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
+            this.changeAccountToolStripMenuItem.Text = "Change Account";
+            // 
             // ViewInvetory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -137,5 +145,6 @@
         private System.Windows.Forms.ToolStripMenuItem refreshToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutUSToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem liciensToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem changeAccountToolStripMenuItem;
     }
 }
