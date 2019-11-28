@@ -98,6 +98,29 @@ namespace DataLayer
             command.Parameters.Add(sellPriceParameter);
 
             _da.InventoryExecute(command);
+            /*string insertCommand = "UPDATE Product_Details SET Product_Name = @Name, Catagory = @Catagory, Stocked = @Quantity, Buy_Price = @BuyPrice, Sell_Price = @Sellprice " +
+                               "WHERE Product_Id = @ID";
+        SqlCommand command = new SqlCommand(insertCommand);
+        SqlParameter idParameter = new SqlParameter("@ID", SqlDbType.Int);
+        idParameter.Value = _product.id;
+        SqlParameter nameParameter = new SqlParameter("@Name", SqlDbType.NVarChar, 50);
+        nameParameter.Value = _product.name;
+        SqlParameter CatagoryParameter = new SqlParameter("@Catagory", SqlDbType.NVarChar, 50);
+        CatagoryParameter.Value = _product.catagory;
+        SqlParameter quantityParameter = new SqlParameter("@Quantity", SqlDbType.Int);
+        quantityParameter.Value = _product.quantities;
+        SqlParameter buyPriceParameter = new SqlParameter("@BuyPrice", SqlDbType.Float);
+        buyPriceParameter.Value = _product.sell_price;
+        SqlParameter sellPriceParameter = new SqlParameter("@SellPrice", SqlDbType.Float);
+        sellPriceParameter.Value = _product.totalprice;
+        //command.Parameters.Add(idParameter);
+        command.Parameters.Add(nameParameter);
+        command.Parameters.Add(CatagoryParameter);
+        command.Parameters.Add(quantityParameter);
+        command.Parameters.Add(buyPriceParameter);
+        command.Parameters.Add(sellPriceParameter);
+
+        _da.InventoryExecute(command);*/
         }
 
     }
