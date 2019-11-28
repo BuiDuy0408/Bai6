@@ -60,7 +60,7 @@
             this.labelSuperShopName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelSuperShopName.Font = new System.Drawing.Font("Monotype Corsiva", 45F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSuperShopName.ForeColor = System.Drawing.Color.Transparent;
-            this.labelSuperShopName.Location = new System.Drawing.Point(136, 9);
+            this.labelSuperShopName.Location = new System.Drawing.Point(142, -1);
             this.labelSuperShopName.Name = "labelSuperShopName";
             this.labelSuperShopName.Size = new System.Drawing.Size(513, 117);
             this.labelSuperShopName.TabIndex = 2;
@@ -135,9 +135,9 @@
             this.panelLogin.Controls.Add(this.btnExit);
             this.panelLogin.Controls.Add(this.label1);
             this.panelLogin.Controls.Add(this.tableLayoutPanel2);
-            this.panelLogin.Location = new System.Drawing.Point(216, 85);
+            this.panelLogin.Location = new System.Drawing.Point(208, 91);
             this.panelLogin.Name = "panelLogin";
-            this.panelLogin.Size = new System.Drawing.Size(339, 206);
+            this.panelLogin.Size = new System.Drawing.Size(377, 233);
             this.panelLogin.TabIndex = 4;
             // 
             // btnLogin
