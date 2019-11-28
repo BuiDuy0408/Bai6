@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyBanHangSieuThi", "QuanLyBanHangSieuThi\QuanLyBanHangSieuThi.csproj", "{F0049A1C-5EBD-4963-AAD4-8D2B7FF5C8F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{19E9FB53-64C6-48C9-A5C2-D7895992BDB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F0049A1C-5EBD-4963-AAD4-8D2B7FF5C8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0049A1C-5EBD-4963-AAD4-8D2B7FF5C8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0049A1C-5EBD-4963-AAD4-8D2B7FF5C8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E9FB53-64C6-48C9-A5C2-D7895992BDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E9FB53-64C6-48C9-A5C2-D7895992BDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E9FB53-64C6-48C9-A5C2-D7895992BDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E9FB53-64C6-48C9-A5C2-D7895992BDB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
