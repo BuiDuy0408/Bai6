@@ -77,12 +77,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Store.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Store.Designer.cs">
-      <DependentUpon>Store.cs</DependentUpon>
-    </Compile>
     <Compile Include="UserControlForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,9 +107,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Store.resx">
-      <DependentUpon>Store.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlForm.resx">
       <DependentUpon>UserControlForm.cs</DependentUpon>
