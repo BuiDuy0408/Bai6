@@ -35,6 +35,29 @@ namespace DataLayer
             command.Parameters.Add(sellPriceParameter);
 
             _da.InventoryExecute(command);
+            /*
+
+           string insertCommand = "INSERT INTO Product_Details (Product_Name, Catagory, Stocked, Buy_Price, Sell_Price) " +
+                                  "VALUES (@Name,@Catagory,@Quantity,@BuyPrice,@SellPrice)";
+           SqlCommand command = new SqlCommand(insertCommand);
+           SqlParameter nameParameter = new SqlParameter("@Name", SqlDbType.NVarChar, 50);
+           nameParameter.Value = _product.name;
+           SqlParameter CatagoryParameter = new SqlParameter("@Catagory", SqlDbType.NVarChar, 50);
+           CatagoryParameter.Value = _product.catagory;
+           SqlParameter quantityParameter = new SqlParameter("@Quantity", SqlDbType.Int);
+           quantityParameter.Value = _product.quantities;
+           SqlParameter buyPriceParameter = new SqlParameter("@BuyPrice", SqlDbType.Float);
+           buyPriceParameter.Value = _product.sell_price;
+           SqlParameter sellPriceParameter = new SqlParameter("@SellPrice", SqlDbType.Float);
+           sellPriceParameter.Value = _product.totalprice;
+           command.Parameters.Add(nameParameter);
+           command.Parameters.Add(CatagoryParameter);
+           command.Parameters.Add(quantityParameter);
+           command.Parameters.Add(buyPriceParameter);
+           command.Parameters.Add(sellPriceParameter);
+
+           _da.InventoryExecute(command);
+            */
         }
 
         public void Delete(Product _product)
