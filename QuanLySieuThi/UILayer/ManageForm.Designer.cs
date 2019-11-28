@@ -45,12 +45,17 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
+<<<<<<< HEAD
             this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             this.helpProvider2 = new System.Windows.Forms.HelpProvider();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+=======
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+>>>>>>> parent of 32ec13a... Merge branch 'master' of https://github.com/BuiDuy0408/Bai6
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -179,6 +184,7 @@
             this.directorySearcher1.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
             this.directorySearcher1.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
             // 
+<<<<<<< HEAD
             // chart1
             // 
             chartArea1.Name = "ChartArea1";
@@ -194,6 +200,11 @@
             this.chart1.Size = new System.Drawing.Size(300, 300);
             this.chart1.TabIndex = 17;
             this.chart1.Text = "chart1";
+=======
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+>>>>>>> parent of 32ec13a... Merge branch 'master' of https://github.com/BuiDuy0408/Bai6
             // 
             // ManageForm
             // 
@@ -241,11 +252,16 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox textBox6;
         private System.DirectoryServices.DirectorySearcher directorySearcher1;
+<<<<<<< HEAD
         private System.Windows.Forms.HelpProvider helpProvider1;
         private System.Windows.Forms.HelpProvider helpProvider2;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.FontDialog fontDialog1;
         private System.Windows.Forms.PageSetupDialog pageSetupDialog1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+=======
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+>>>>>>> parent of 32ec13a... Merge branch 'master' of https://github.com/BuiDuy0408/Bai6
     }
 }
