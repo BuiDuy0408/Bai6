@@ -62,5 +62,62 @@ namespace UILayer
             }
 
         }
+        private void btnInsert_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Product _product = new Product();
+                _product.id = textBoxProductCode.Text;
+                _product.name = textBoxName.Text;
+                _product.quantities = Convert.ToInt32(textBoxQuantity.Text);
+                _product.sell_price = Convert.ToDouble(textBoxUnitPrice.Text);
+                _product.discount = (((Convert.ToInt32(textBoxQuantity.Text)) * (Convert.ToDouble(textBoxUnitPrice.Text))) * ((Convert.ToDouble(textBoxDiscount.Text)) / 100));
+                _product.totalprice = (((Convert.ToInt32(textBoxQuantity.Text)) * (Convert.ToDouble(textBoxUnitPrice.Text)) - (Convert.ToDouble(_product.discount))));
+                this.dataGridView1.Rows.Add(_product.id, _product.name, _product.quantities, _product.sell_price, _product.discount, _product.totalprice);
+                sum = 0;
+                for (int i = 0; i < dataGridView1.Rows.Count; i++)
+                {
+                    sum += Convert.ToDouble(dataGridView1.Rows[i].Cells[5].Value);
+                }
+
+                labelSubTotal.Text = sum.ToString();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("No input was given.", "Input", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+
+
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            textBoxProductCode.Text = "";
+            textBoxName.Text = "";
+            textBoxQuantity.Text = "";
+            textBoxUnitPrice.Text = "";
+            textBoxDiscount.Text = "";
+
+
+        }
+
+        private void btnRemoveFromCart_Click(object sender, EventArgs e)
+        {
+            string temp = tBoxCode.Text;
+            for (int i = 0; i < dataGridView1.Rows.Count; i++)
+            {
+                if (dataGridView1.Rows[i].Cells[0].Value.ToString() == temp)
+                {
+                    dataGridView1.Rows.RemoveAt(i);
+                }
+            }
+        }
+
+        private void btnStartOver_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
+            btnClear.PerformClick();
+            btnCancel.PerformClick();
+        }
     }
 }
