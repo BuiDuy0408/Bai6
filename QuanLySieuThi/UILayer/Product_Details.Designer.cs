@@ -43,6 +43,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBoxId = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBoxStocked = new System.Windows.Forms.TextBox();
+            this.textBoxUnitPrice = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -151,6 +158,13 @@
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.39377F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.60623F));
+            this.tableLayoutPanel2.Controls.Add(this.textBox2, 0, 7);
+            this.tableLayoutPanel2.Controls.Add(this.textBox1, 0, 7);
+            this.tableLayoutPanel2.Controls.Add(this.textBoxUnitPrice, 0, 6);
+            this.tableLayoutPanel2.Controls.Add(this.textBoxStocked, 0, 6);
+            this.tableLayoutPanel2.Controls.Add(this.label6, 0, 5);
+            this.tableLayoutPanel2.Controls.Add(this.label4, 0, 5);
+            this.tableLayoutPanel2.Controls.Add(this.label5, 0, 5);
             this.tableLayoutPanel2.Controls.Add(this.textBoxName, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.label2, 0, 1);
@@ -158,13 +172,16 @@
             this.tableLayoutPanel2.Controls.Add(this.textBoxId, 1, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 43);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 6;
+            this.tableLayoutPanel2.RowCount = 8;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(353, 263);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
@@ -172,7 +189,7 @@
             // 
             this.textBoxName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxName.Location = new System.Drawing.Point(135, 46);
+            this.textBoxName.Location = new System.Drawing.Point(135, 36);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(215, 34);
             this.textBoxName.TabIndex = 7;
@@ -183,7 +200,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 43);
+            this.label1.Size = new System.Drawing.Size(126, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Product Id";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -192,9 +209,9 @@
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 43);
+            this.label2.Location = new System.Drawing.Point(3, 33);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 43);
+            this.label2.Size = new System.Drawing.Size(126, 33);
             this.label2.TabIndex = 1;
             this.label2.Text = "Product Name";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -203,9 +220,9 @@
             // 
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 86);
+            this.label3.Location = new System.Drawing.Point(3, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 43);
+            this.label3.Size = new System.Drawing.Size(126, 33);
             this.label3.TabIndex = 2;
             this.label3.Text = "Catagory";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -218,6 +235,75 @@
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(215, 34);
             this.textBoxId.TabIndex = 6;
+            // 
+            // label5
+            // 
+            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(3, 165);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(126, 33);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Unit Price";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(3, 198);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(126, 20);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Stocked";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(135, 165);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(215, 33);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Unit Price";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBoxStocked
+            // 
+            this.textBoxStocked.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxStocked.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxStocked.Location = new System.Drawing.Point(3, 221);
+            this.textBoxStocked.Name = "textBoxStocked";
+            this.textBoxStocked.Size = new System.Drawing.Size(126, 34);
+            this.textBoxStocked.TabIndex = 11;
+            // 
+            // textBoxUnitPrice
+            // 
+            this.textBoxUnitPrice.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxUnitPrice.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxUnitPrice.Location = new System.Drawing.Point(135, 201);
+            this.textBoxUnitPrice.Name = "textBoxUnitPrice";
+            this.textBoxUnitPrice.Size = new System.Drawing.Size(215, 34);
+            this.textBoxUnitPrice.TabIndex = 12;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(3, 241);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(126, 34);
+            this.textBox1.TabIndex = 13;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(135, 221);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(215, 34);
+            this.textBox2.TabIndex = 14;
             // 
             // Product_Details
             // 
@@ -255,5 +341,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBoxId;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBoxUnitPrice;
+        private System.Windows.Forms.TextBox textBoxStocked;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
