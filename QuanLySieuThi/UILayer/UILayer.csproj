@@ -85,6 +85,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="PosSystem.resx">
+      <DependentUpon>PosSystem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Product_Details.resx">
       <DependentUpon>Product_Details.cs</DependentUpon>
     </EmbeddedResource>
