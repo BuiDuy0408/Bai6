@@ -32,7 +32,9 @@
             this.labelSuperShopName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pBoxUser = new System.Windows.Forms.PictureBox();
+            this.pBoxPass = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxUser)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxPass)).BeginInit();
             this.SuspendLayout();
             // 
             // labelSuperShopName
@@ -70,17 +72,29 @@
             this.pBoxUser.TabIndex = 4;
             this.pBoxUser.TabStop = false;
             // 
+            // pBoxPass
+            // 
+            this.pBoxPass.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pBoxPass.BackgroundImage")));
+            this.pBoxPass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pBoxPass.Location = new System.Drawing.Point(202, 225);
+            this.pBoxPass.Name = "pBoxPass";
+            this.pBoxPass.Size = new System.Drawing.Size(39, 31);
+            this.pBoxPass.TabIndex = 5;
+            this.pBoxPass.TabStop = false;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(770, 377);
+            this.Controls.Add(this.pBoxPass);
             this.Controls.Add(this.pBoxUser);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelSuperShopName);
             this.Name = "LoginForm";
             this.Text = "LoginForm";
             ((System.ComponentModel.ISupportInitialize)(this.pBoxUser)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxPass)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -90,5 +104,6 @@
         private System.Windows.Forms.Label labelSuperShopName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pBoxUser;
+        private System.Windows.Forms.PictureBox pBoxPass;
     }
 }
