@@ -90,6 +90,18 @@
       <Project>{450c982a-86cf-4cf4-aadb-46e2cbb79ff3}</Project>
       <Name>DataLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{31e0fb8a-4ad1-4b22-aae4-e23b6536fc06}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework\Framework.csproj">
+      <Project>{fec80d99-2f4b-4459-b389-c2f834ce0da5}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PosSystem\PosSystem.csproj">
+      <Project>{6ced9cf1-05e0-42d7-9b6f-127dcbd573c1}</Project>
+      <Name>PosSystem</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
