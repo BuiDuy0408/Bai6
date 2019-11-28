@@ -35,6 +35,8 @@
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnAny = new System.Windows.Forms.Button();
             this.flowLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -98,6 +100,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.Controls.Add(this.btnAny);
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Location = new System.Drawing.Point(608, 35);
             this.panel1.Name = "panel1";
@@ -122,6 +126,25 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(353, 263);
             this.tableLayoutPanel2.TabIndex = 0;
             this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(164, 349);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(113, 34);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Cancel";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // btnAny
+            // 
+            this.btnAny.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAny.Location = new System.Drawing.Point(26, 349);
+            this.btnAny.Name = "btnAny";
+            this.btnAny.Size = new System.Drawing.Size(113, 34);
+            this.btnAny.TabIndex = 5;
+            this.btnAny.UseVisualStyleBackColor = true;
             // 
             // Product_Details
             // 
@@ -149,5 +172,7 @@
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Button btnAny;
+        private System.Windows.Forms.Button button2;
     }
 }
