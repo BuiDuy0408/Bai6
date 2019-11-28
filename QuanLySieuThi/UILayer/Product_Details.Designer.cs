@@ -35,9 +35,14 @@
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnAny = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBoxSellPrice = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel2
@@ -98,6 +103,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.Controls.Add(this.btnAny);
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Location = new System.Drawing.Point(608, 35);
             this.panel1.Name = "panel1";
@@ -110,6 +117,8 @@
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.39377F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.60623F));
+            this.tableLayoutPanel2.Controls.Add(this.textBoxSellPrice, 0, 5);
+            this.tableLayoutPanel2.Controls.Add(this.label6, 0, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 43);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 6;
@@ -122,6 +131,46 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(353, 263);
             this.tableLayoutPanel2.TabIndex = 0;
             this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(164, 349);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(113, 34);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Cancel";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // btnAny
+            // 
+            this.btnAny.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAny.Location = new System.Drawing.Point(26, 349);
+            this.btnAny.Name = "btnAny";
+            this.btnAny.Size = new System.Drawing.Size(113, 34);
+            this.btnAny.TabIndex = 5;
+            this.btnAny.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(3, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(126, 43);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Sell Price";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // textBoxSellPrice
+            // 
+            this.textBoxSellPrice.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxSellPrice.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSellPrice.Location = new System.Drawing.Point(3, 218);
+            this.textBoxSellPrice.Name = "textBoxSellPrice";
+            this.textBoxSellPrice.Size = new System.Drawing.Size(126, 34);
+            this.textBoxSellPrice.TabIndex = 12;
             // 
             // Product_Details
             // 
@@ -136,6 +185,8 @@
             this.flowLayoutPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -149,5 +200,9 @@
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Button btnAny;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBoxSellPrice;
     }
 }
