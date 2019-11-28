@@ -85,8 +85,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Duy.resx">
-      <DependentUpon>Duy.cs</DependentUpon>
+    <EmbeddedResource Include="PosSystem.resx">
+      <DependentUpon>PosSystem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Product_Details.resx">
       <DependentUpon>Product_Details.cs</DependentUpon>
