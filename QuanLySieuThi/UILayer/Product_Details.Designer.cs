@@ -65,16 +65,18 @@
             this.flowLayoutPanel2.Controls.Add(this.panel1);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1047, 539);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(785, 438);
             this.flowLayoutPanel2.TabIndex = 3;
             this.flowLayoutPanel2.BackColorChanged += new System.EventHandler(this.label6_Click);
             // 
             // labelSelectCatagory
             // 
-            this.labelSelectCatagory.Location = new System.Drawing.Point(3, 0);
+            this.labelSelectCatagory.Location = new System.Drawing.Point(2, 0);
+            this.labelSelectCatagory.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelSelectCatagory.Name = "labelSelectCatagory";
-            this.labelSelectCatagory.Size = new System.Drawing.Size(100, 23);
+            this.labelSelectCatagory.Size = new System.Drawing.Size(75, 19);
             this.labelSelectCatagory.TabIndex = 1;
             this.labelSelectCatagory.Text = "Select Catagory";
             this.labelSelectCatagory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -83,18 +85,20 @@
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(109, 3);
+            this.comboBox1.Location = new System.Drawing.Point(81, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(283, 24);
+            this.comboBox1.Size = new System.Drawing.Size(213, 21);
             this.comboBox1.TabIndex = 0;
             // 
             // btnShow
             // 
             this.btnShow.AutoSize = true;
             this.btnShow.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnShow.Location = new System.Drawing.Point(398, 3);
+            this.btnShow.Location = new System.Drawing.Point(298, 2);
+            this.btnShow.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(95, 26);
+            this.btnShow.Size = new System.Drawing.Size(71, 22);
             this.btnShow.TabIndex = 4;
             this.btnShow.Text = "Show";
             this.btnShow.UseVisualStyleBackColor = true;
@@ -106,10 +110,11 @@
             this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(3, 35);
+            this.dataGridView2.Location = new System.Drawing.Point(2, 28);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersVisible = false;
-            this.dataGridView2.Size = new System.Drawing.Size(599, 450);
+            this.dataGridView2.Size = new System.Drawing.Size(449, 366);
             this.dataGridView2.TabIndex = 5;
             // 
             // panel1
@@ -119,18 +124,20 @@
             this.panel1.Controls.Add(this.btnAny);
             this.panel1.Controls.Add(this.labelTitle);
             this.panel1.Controls.Add(this.tableLayoutPanel2);
-            this.panel1.Location = new System.Drawing.Point(608, 35);
+            this.panel1.Location = new System.Drawing.Point(455, 28);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(363, 407);
+            this.panel1.Size = new System.Drawing.Size(272, 331);
             this.panel1.TabIndex = 6;
             this.panel1.Visible = false;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(122, 312);
+            this.button2.Location = new System.Drawing.Point(92, 254);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 34);
+            this.button2.Size = new System.Drawing.Size(85, 28);
             this.button2.TabIndex = 3;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
@@ -138,9 +145,10 @@
             // btnAny
             // 
             this.btnAny.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAny.Location = new System.Drawing.Point(3, 312);
+            this.btnAny.Location = new System.Drawing.Point(2, 254);
+            this.btnAny.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAny.Name = "btnAny";
-            this.btnAny.Size = new System.Drawing.Size(113, 34);
+            this.btnAny.Size = new System.Drawing.Size(85, 28);
             this.btnAny.TabIndex = 2;
             this.btnAny.UseVisualStyleBackColor = true;
             // 
@@ -148,9 +156,10 @@
             // 
             this.labelTitle.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.labelTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitle.Location = new System.Drawing.Point(10, 6);
+            this.labelTitle.Location = new System.Drawing.Point(8, 5);
+            this.labelTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(202, 31);
+            this.labelTitle.Size = new System.Drawing.Size(152, 25);
             this.labelTitle.TabIndex = 1;
             this.labelTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -171,7 +180,8 @@
             this.tableLayoutPanel2.Controls.Add(this.label5, 0, 4);
             this.tableLayoutPanel2.Controls.Add(this.label6, 0, 5);
             this.tableLayoutPanel2.Controls.Add(this.textBoxId, 1, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 43);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 35);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 6;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -180,61 +190,67 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(353, 263);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(265, 214);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // textBoxSellPrice
             // 
             this.textBoxSellPrice.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxSellPrice.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSellPrice.Location = new System.Drawing.Point(135, 218);
+            this.textBoxSellPrice.Location = new System.Drawing.Point(101, 177);
+            this.textBoxSellPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxSellPrice.Name = "textBoxSellPrice";
-            this.textBoxSellPrice.Size = new System.Drawing.Size(215, 34);
+            this.textBoxSellPrice.Size = new System.Drawing.Size(162, 29);
             this.textBoxSellPrice.TabIndex = 11;
             // 
             // textBoxUnitPrice
             // 
             this.textBoxUnitPrice.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxUnitPrice.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUnitPrice.Location = new System.Drawing.Point(135, 175);
+            this.textBoxUnitPrice.Location = new System.Drawing.Point(101, 142);
+            this.textBoxUnitPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxUnitPrice.Name = "textBoxUnitPrice";
-            this.textBoxUnitPrice.Size = new System.Drawing.Size(215, 34);
+            this.textBoxUnitPrice.Size = new System.Drawing.Size(162, 29);
             this.textBoxUnitPrice.TabIndex = 10;
             // 
             // textBoxStocked
             // 
             this.textBoxStocked.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxStocked.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxStocked.Location = new System.Drawing.Point(135, 132);
+            this.textBoxStocked.Location = new System.Drawing.Point(101, 107);
+            this.textBoxStocked.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxStocked.Name = "textBoxStocked";
-            this.textBoxStocked.Size = new System.Drawing.Size(215, 34);
+            this.textBoxStocked.Size = new System.Drawing.Size(162, 29);
             this.textBoxStocked.TabIndex = 9;
             // 
             // textBoxCatagory
             // 
             this.textBoxCatagory.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxCatagory.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCatagory.Location = new System.Drawing.Point(135, 89);
+            this.textBoxCatagory.Location = new System.Drawing.Point(101, 72);
+            this.textBoxCatagory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxCatagory.Name = "textBoxCatagory";
-            this.textBoxCatagory.Size = new System.Drawing.Size(215, 34);
+            this.textBoxCatagory.Size = new System.Drawing.Size(162, 29);
             this.textBoxCatagory.TabIndex = 8;
             // 
             // textBoxName
             // 
             this.textBoxName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxName.Location = new System.Drawing.Point(135, 46);
+            this.textBoxName.Location = new System.Drawing.Point(101, 37);
+            this.textBoxName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(215, 34);
+            this.textBoxName.Size = new System.Drawing.Size(162, 29);
             this.textBoxName.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Location = new System.Drawing.Point(2, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 43);
+            this.label1.Size = new System.Drawing.Size(95, 35);
             this.label1.TabIndex = 0;
             this.label1.Text = "Product Id";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -243,9 +259,10 @@
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 43);
+            this.label2.Location = new System.Drawing.Point(2, 35);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 43);
+            this.label2.Size = new System.Drawing.Size(95, 35);
             this.label2.TabIndex = 1;
             this.label2.Text = "Product Name";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -254,9 +271,10 @@
             // 
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 86);
+            this.label3.Location = new System.Drawing.Point(2, 70);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 43);
+            this.label3.Size = new System.Drawing.Size(95, 35);
             this.label3.TabIndex = 2;
             this.label3.Text = "Catagory";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -265,9 +283,10 @@
             // 
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 129);
+            this.label4.Location = new System.Drawing.Point(2, 105);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(126, 43);
+            this.label4.Size = new System.Drawing.Size(95, 35);
             this.label4.TabIndex = 3;
             this.label4.Text = "Stocked";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -276,9 +295,10 @@
             // 
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 172);
+            this.label5.Location = new System.Drawing.Point(2, 140);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(126, 43);
+            this.label5.Size = new System.Drawing.Size(95, 35);
             this.label5.TabIndex = 4;
             this.label5.Text = "Unit Price";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -287,9 +307,10 @@
             // 
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(3, 215);
+            this.label6.Location = new System.Drawing.Point(2, 175);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(126, 48);
+            this.label6.Size = new System.Drawing.Size(95, 39);
             this.label6.TabIndex = 5;
             this.label6.Text = "Sell Price";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -298,17 +319,19 @@
             // 
             this.textBoxId.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxId.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxId.Location = new System.Drawing.Point(135, 3);
+            this.textBoxId.Location = new System.Drawing.Point(101, 2);
+            this.textBoxId.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxId.Name = "textBoxId";
-            this.textBoxId.Size = new System.Drawing.Size(215, 34);
+            this.textBoxId.Size = new System.Drawing.Size(162, 29);
             this.textBoxId.TabIndex = 6;
             // 
             // Product_Details
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1047, 539);
+            this.ClientSize = new System.Drawing.Size(785, 438);
             this.Controls.Add(this.flowLayoutPanel2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Product_Details";
             this.Text = "Product";
             this.Load += new System.EventHandler(this.Product_Details_Load);
