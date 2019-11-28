@@ -48,6 +48,12 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PosSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PosSystem.Designer.cs">
+      <DependentUpon>PosSystem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Product_Details.cs">
       <SubType>Form</SubType>
     </Compile>
