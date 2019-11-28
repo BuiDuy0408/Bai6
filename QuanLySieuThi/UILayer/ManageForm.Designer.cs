@@ -44,6 +44,8 @@
             this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
             this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             this.helpProvider2 = new System.Windows.Forms.HelpProvider();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.saveFileDialog2 = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -217,5 +219,7 @@
         private System.DirectoryServices.DirectorySearcher directorySearcher1;
         private System.Windows.Forms.HelpProvider helpProvider1;
         private System.Windows.Forms.HelpProvider helpProvider2;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog2;
     }
 }
