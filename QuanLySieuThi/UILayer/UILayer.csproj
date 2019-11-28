@@ -85,6 +85,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PosSystem.resx">
       <DependentUpon>PosSystem.cs</DependentUpon>
     </EmbeddedResource>
