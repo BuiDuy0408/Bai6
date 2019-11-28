@@ -16,5 +16,15 @@ namespace UILayer
         {
             InitializeComponent();
         }
+
+        private void Product_Details_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
