@@ -1,5 +1,4 @@
-﻿using BusinessLayer;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,12 +10,9 @@ using System.Windows.Forms;
 
 namespace UILayer
 {
-    public partial class UserControlForm : Form
+    public partial class PosSystem : Form
     {
-        DataTable dt = new DataTable();
-        EmployeeBusiness _employeeBusiness = new EmployeeBusiness();
-        string name;
-        public UserControlForm()
+        public PosSystem()
         {
             InitializeComponent();
         }
