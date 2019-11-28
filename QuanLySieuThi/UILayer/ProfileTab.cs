@@ -21,5 +21,14 @@ namespace UILayer
         {
 
         }
+        public void openTab(TabPage tb, int count, string name)
+        {
+            this.tabControl1.TabPages.Add(tb);
+            UserControlForm _userControlForm = new UserControlForm(name);
+            _userControlForm.Dock = DockStyle.Fill;
+            _userControlForm.TopLevel = false;
+            tb.Controls.Add(_userControlForm);
+            _userControlForm.Show();
+        }
     }
 }
