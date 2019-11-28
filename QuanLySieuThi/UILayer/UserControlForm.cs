@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,9 @@ namespace UILayer
 {
     public partial class UserControlForm : Form
     {
+        DataTable dt = new DataTable();
+        EmployeeBusiness _employeeBusiness = new EmployeeBusiness();
+        string name;
         public UserControlForm()
         {
             InitializeComponent();
